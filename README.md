@@ -5,7 +5,7 @@ CodeRefinery twitter: by using the
 Action, a pull request will result in a tweet.  Anyone may propose a
 tweet, please go by PRs unless making a quick reply.
 
-Tweet: <kbd>[Create new tweet](../../../new/master/?filename=tweets/<your-path>.tweet)</kbd>
+Tweet: <kbd>[Create new tweet](../../new/master/?filename=tweets/<your-path>.tweet)</kbd>
 
 
 
