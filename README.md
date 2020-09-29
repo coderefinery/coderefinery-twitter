@@ -7,6 +7,8 @@ tweet, please go by PRs unless making a quick reply.
 
 Tweet: <kbd>[Create new tweet](../../new/master/?filename=tweets/<your-path>.tweet)</kbd>
 
+This repository is protected by the `CODEOWNERS` file, which restricts
+who can merge.
 
 
 ## How-to
