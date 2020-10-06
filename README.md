@@ -1,14 +1,32 @@
 # CodeRefinery twitter-together
 
-CodeRefinery twitter: by using the
+By using the
 [twitter-together](https://github.com/gr2m/twitter-together) Github
-Action, a pull request will result in a tweet.  Anyone may propose a
-tweet, please go by PRs unless making a quick reply.
+Action, a pull request to this repository will result in a tweet.
+Anyone may propose a tweet, please go by pull requests.
 
-Tweet: <kbd>[Create new tweet](../../new/master/?filename=tweets/<your-path>.tweet)</kbd>
+## Policy
+
+(insert some text here so people are encouraged to post things,
+otherwise only a few people will post.)
+
+## How-to
+
+How-to via web:
+
+* <kbd>[Create new tweet](../../new/master/?filename=tweets/YYYY/MM/<your-path>.tweet)</kbd>
+* Edit the file path, YYYY/MM/filename
+* Add the body of the tweet.  Links get automatically shortened.
+* Follow the Github workflow to open the pull request.
 
 This repository is protected by the `CODEOWNERS` file, which restricts
 who can merge.
+
+## Via command line
+
+The `new.sh` script will prompt you for a filename, make a new branch,
+and start an editor for the tweet.  If all goes well, the file will be
+`git add`ed, but you need to commit/push it yourself.
 
 
 ## How-to
